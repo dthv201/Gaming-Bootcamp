@@ -149,7 +149,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eaaae3f1f0298a4b87a79674f655e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonText: {fileID: 5925375668127055115}
+  label: {fileID: 0}
+  topleft: {fileID: 0}
+  top: {fileID: 0}
+  topright: {fileID: 0}
+  left: {fileID: 0}
+  mid: {fileID: 0}
+  right: {fileID: 0}
+  botleft: {fileID: 0}
+  bottom: {fileID: 0}
+  botright: {fileID: 0}
 --- !u!1 &6618500120891635949
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,13 +280,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4425484465398965366}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeText, Assembly-CSharp
-        m_MethodName: newText
-        m_Mode: 1
+        m_MethodName: OnButtonClick
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 5925375668127055115}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
