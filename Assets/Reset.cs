@@ -7,7 +7,7 @@ public class Reset : MonoBehaviour
 
     public void ResetGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
     }
 
 }
